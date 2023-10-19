@@ -23,6 +23,7 @@ var_disk="1"
 var_cpu="1"
 var_ram="512"
 var_os="ubuntu"
+var_pw="x66G#tcGcK@7"
 var_version="22.04"
 variables
 color
@@ -30,7 +31,7 @@ catch_errors
 
 function default_settings() {
   CT_TYPE="0"
-  PW="x66G#tcGcK@7"
+  PW="$var_pw"
   CT_ID=$NEXTID
   HN=$NSAPP
   DISK_SIZE="$var_disk"
