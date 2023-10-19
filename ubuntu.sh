@@ -30,7 +30,7 @@ catch_errors
 
 function default_settings() {
   CT_TYPE="0"
-  PW=""
+  PW="test"
   CT_ID=$NEXTID
   HN=$NSAPP
   DISK_SIZE="$var_disk"
